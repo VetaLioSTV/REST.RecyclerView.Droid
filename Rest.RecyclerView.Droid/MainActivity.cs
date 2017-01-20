@@ -45,10 +45,6 @@ namespace Rest.RecyclerView.Droid
 			{
 				try
 				{
-					//ProgressDialogConfig Config = new ProgressDialogConfig();
-					//Config.MaskType = MaskType.Gradient;
-					//Config.Title = "Loading...";
-
 					UserDialogs.Instance.Progress().PercentComplete = 50;
 					Lst = await Client.GetRequestData<List<User>>();
 					Adapter = new RecyclerViewAdapter(Lst);
