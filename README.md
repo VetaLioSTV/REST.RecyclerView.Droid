@@ -3,4 +3,4 @@
 Implementing RecyclerView with REST.
 
 Example:
-![alt text] (http://giphy.com/gifs/1iW2cabLYxIWPO1O)
+![alt text] (https://gfycat.com/SlimDeadAmericanbittern)
