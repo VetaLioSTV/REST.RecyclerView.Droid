@@ -2,4 +2,5 @@
 
 Implementing RecyclerView with REST.
 
-![] (http://giphy.com/gifs/1iW2cabLYxIWPO1O)
+Example:
+![alt text] (http://giphy.com/gifs/1iW2cabLYxIWPO1O)
