@@ -45,11 +45,11 @@ namespace Rest.RecyclerView.Droid
 				//Clicked
 				Context _Context = _View.Context;
 				var _Intent = new Intent(_Context, typeof(SecondActivity));
-				_Intent.PutExtra("Title",Lst[ItemPosition].company.name);
-				_Intent.PutExtra("Street", Lst[ItemPosition].address.street);
-				_Intent.PutExtra("ZipCode", Lst[ItemPosition].address.zipcode);
-				_Intent.PutExtra("Suite", Lst[ItemPosition].address.suite);
-				_Intent.PutExtra("City", Lst[ItemPosition].address.city);
+				_Intent.PutExtra("Title",Lst[ItemPosition].Company.Name);
+				_Intent.PutExtra("Street", Lst[ItemPosition].Address.Street);
+				_Intent.PutExtra("ZipCode", Lst[ItemPosition].Address.Zipcode);
+				_Intent.PutExtra("Suite", Lst[ItemPosition].Address.Suite);
+				_Intent.PutExtra("City", Lst[ItemPosition].Address.City);
 				StartActivity(_Intent);
 
 			});

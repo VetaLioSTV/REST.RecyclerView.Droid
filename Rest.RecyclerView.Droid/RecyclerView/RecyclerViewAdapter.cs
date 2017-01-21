@@ -27,9 +27,9 @@ namespace Rest.RecyclerView.Droid
 		{
 			var ViewHolder = (RecyclerViewHolder)holder;
 
-			ViewHolder.Address.Text = SourceList[position].address.street;
-			ViewHolder.Company.Text = SourceList[position].company.name;
-			ViewHolder.ID.Text = SourceList[position].id.ToString();
+			ViewHolder.Address.Text = SourceList[position].Address.Street;
+			ViewHolder.Company.Text = SourceList[position].Company.Name;
+			ViewHolder.ID.Text = SourceList[position].Id.ToString();
 		}
 
 		public override Recycler.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)

@@ -1,37 +1,71 @@
 ﻿namespace Rest.RecyclerView.Droid
 {
 
+	using Newtonsoft.Json;
+
 	public class Geo
 	{
-		public string lat { get; set; }
-		public string lng { get; set; }
+		[JsonProperty("lat")]
+		public string Lat { get; set; }
+
+		[JsonProperty("lng")]
+		public string Lng { get; set; }
 	}
 
 	public class Address
 	{
-		public string street { get; set; }
-		public string suite { get; set; }
-		public string city { get; set; }
-		public string zipcode { get; set; }
-		public Geo geo { get; set; }
+		[JsonProperty("street")]
+		public string Street { get; set; }
+
+		[JsonProperty("suite")]
+		public string Suite { get; set; }
+
+		[JsonProperty("city")]
+		public string City { get; set; }
+
+		[JsonProperty("zipcode")]
+		public string Zipcode { get; set; }
+
+		[JsonProperty("geo")]
+		public Geo Geo { get; set; }
 	}
 
 	public class Company
 	{
-		public string name { get; set; }
-		public string catchPhrase { get; set; }
-		public string bs { get; set; }
+		[JsonProperty("name")]
+		public string Name { get; set; }
+
+		[JsonProperty("catchPhrase")]
+		public string CatchPhrase { get; set; }
+
+		[JsonProperty("bs")]
+		public string Bs { get; set; }
 	}
 
 	public class User
 	{
-		public int id { get; set; }
-		public string name { get; set; }
-		public string username { get; set; }
-		public string email { get; set; }
-		public Address address { get; set; }
-		public string phone { get; set; }
-		public string website { get; set; }
-		public Company company { get; set; }
+		[JsonProperty("id")]
+		public int Id { get; set; }
+
+		[JsonProperty("name")]
+		public string Name { get; set; }
+
+		[JsonProperty("username")]
+		public string Username { get; set; }
+
+		[JsonProperty("email")]
+		public string Email { get; set; }
+
+		[JsonProperty("address")]
+		public Address Address { get; set; }
+
+		[JsonProperty("phone")]
+		public string Phone { get; set; }
+
+		[JsonProperty("website")]
+		public string Website { get; set; }
+
+		[JsonProperty("company")]
+		public Company Company { get; set; }
 	}
 }
