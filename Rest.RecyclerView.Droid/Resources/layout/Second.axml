@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/ToolBar"
+        layout="@layout/MainToolBar" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/main_content"
+        android:layout_below="@id/ToolBar">
+        <TextView
+            android:layout_margin="16dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Street"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Street" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/star_on"
+            android:clickable="true" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="City"
+                android:gravity="center_horizontal"
+                android:id="@+id/City" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ZipCode"
+                android:gravity="center_horizontal"
+                android:id="@+id/ZipCode" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Suite"
+                android:gravity="center_horizontal"
+                android:id="@+id/Suite" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
