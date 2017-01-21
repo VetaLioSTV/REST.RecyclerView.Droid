@@ -4,6 +4,7 @@ Implementing RecyclerView with REST.
 
 Example:
 
+<iframe src='https://gfycat.com/ifr/SlimDeadAmericanbittern' frameborder='0' scrolling='no' width='640' height='994' allowfullscreen></iframe>
 
-![Demo] (http://giphy.com/gifs/1iW2cabLYxIWPO1O)
+
 
