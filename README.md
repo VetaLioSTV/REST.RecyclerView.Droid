@@ -2,7 +2,7 @@
 
 Implementing RecyclerView with REST.
 
-Example:
+## Example:
 
 
 <div class='gfyitem' data-id='SlimDeadAmericanbittern'></div>
